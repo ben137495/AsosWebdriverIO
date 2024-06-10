@@ -1,0 +1,22 @@
+{
+  "name": "asos",
+  "version": "1.0.0",
+  "description": "Testing Asos Belt item",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "t": "npx wdio --spec test/specs/**/*.spec.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "Benyamin J",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "@wdio/cli": "^8.38.2",
+    "@wdio/local-runner": "^8.38.2",
+    "@wdio/mocha-framework": "^8.38.2",
+    "@wdio/spec-reporter": "^8.38.2"
+  }
+}
