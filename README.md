@@ -1,5 +1,7 @@
 # AsosWebdriverIO
-A small automation framework for Asos.com
+A small automation framework for Asos.com<br>
+
+Framework => WebdriverIO, Mocha, Javascript
 
 ==============================================<br>
 Test Scenario: Selecting the first item of Belt Category<br>
